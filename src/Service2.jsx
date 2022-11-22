@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "./Footer"
 import mg1 from "./images/mg1.jfif"
 import mg2 from "./images/mg2.jfif"
 import mg3 from "./images/mg3.jfif"
@@ -55,7 +56,8 @@ import ts5 from "./images/ts5.jpg"
 
 const Service2=()=>{
     return(
-        <>        
+        <>     
+        <h1 className="frm4 text-center">MUG :-</h1> 
         <div className="card-group col-10 mx-auto p-2">
   <div className="card">
     <img src={mg1} className="card-img-top " alt="mypic" />
@@ -166,7 +168,7 @@ const Service2=()=>{
 
 
 
-
+<h1 className="frm4 text-center p-3">Cushions :-</h1> 
 
 <div className="card-group col-10 mx-auto p-2">
   <div className="card">
@@ -221,6 +223,7 @@ const Service2=()=>{
   </div>
 </div>
 
+
 <div className="card-group col-10 mx-auto p-2">
   <div className="card">
     <img src={cu6} className="card-img-top" alt="mypic" />
@@ -273,7 +276,7 @@ const Service2=()=>{
     </div>
   </div>
 </div>
-
+<h1 className="frm4 text-center p-3">Wooden & Metal Key Rings :-</h1> 
 <div className="card-group col-10 mx-auto p-2">
   <div className="card">
     <img src={ky1} className="card-img-top" alt="mypic" />
@@ -326,7 +329,7 @@ const Service2=()=>{
     </div>
   </div>
 </div>
-
+<h1 className="frm4 text-center p-3">Frames & Lamp Light  :-</h1>
 <div className="card-group col-10 mx-auto p-2">
   <div className="card">
     <img src={fr1} className="card-img-top" alt="mypic" />
@@ -433,7 +436,7 @@ const Service2=()=>{
   </div>
 </div>
 
-
+<h1 className="frm4 text-center p-3">Water Bottle :-</h1>
 <div className="card-group col-10 mx-auto p-2">
   <div className="card">
     <img src={bt1} className="card-img-top" alt="mypic" />
@@ -486,7 +489,7 @@ const Service2=()=>{
     </div>
   </div>
 </div>
-
+<h1 className="frm4 text-center p-3">T-Shirt :-</h1>
 <div className="card-group col-10 mx-auto p-2">
   <div className="card">
     <img src={ts1} className="card-img-top" alt="mypic" />
@@ -540,6 +543,8 @@ const Service2=()=>{
   </div>
 </div>
 
+
+<Footer/>
         </>
     )
 

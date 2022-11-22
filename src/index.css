@@ -29,11 +29,6 @@
     color: #3498db !important;
 }
 
-.p_size {
-    width: 200px;
-    height: 300px;
-}
-
 @media(max-width:991px) {
     .navbar-brand {
         font-size: 1.5rem !important;
@@ -106,13 +101,71 @@ header-img {
     color: #3498db;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(86, 84, 84);
-    color: white;
+.stdText {
+    font-size: 50px;
+}
+
+.stdText1 {
+    font-size: 40px;
+}
+
+.txt {
     text-align: center;
-    height: 100px;
+    margin: 40px;
+    line-height: 22px;
+}
+
+.txt_col {
+    color: #3498db;
+}
+
+.frm {
+    font-size: 50px;
+}
+
+.frm1 {
+    font-size: 27px;
+    color: #3498db;
+}
+
+.frm2 {
+    font-size: 20px;
+}
+
+.frm3 {
+    text-align: center;
+    margin: 40px;
+}
+
+.frm4 {
+    color: #3498db;
+}
+
+.ab_txt {
+    font-size: 55px;
+}
+
+.ab_txt1 {
+    font-size: 18px;
+}
+
+.btn2 {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    font-size: 25px;
+    background-color: #3498db;
+    border-radius: 25px;
+}
+
+.btn2:hover {
+    background-color: white;
+    font-size: 25px;
+    color: #3498db;
+    border-color: #3498db;
+    box-shadow: 10px 12px 15px #3498db;
+}
+
+.txt7 {
+    font-size: 18px;
 }

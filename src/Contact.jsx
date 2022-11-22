@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Footer from "./Footer"
 const Contact=()=>{
   const[data,setData]=useState({
     fullName:"",
@@ -55,7 +56,7 @@ setData((preVal)=>{
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.915730061233!2d77.71717921494349!3d29.460470982098546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c1bd6eb91195b%3A0xbb475e535549b16c!2sSanjay%20Studio!5e0!3m2!1sen!2sin!4v1668659249440!5m2!1sen!2sin" width="100%" height="350" style={{border:5 }}allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
-
+<Footer/>
     
     </React.Fragment>
   )

@@ -1,8 +1,9 @@
 import React from 'react'
+import Home from './Home'
 const Notfound=()=>{
   return(
     <React.Fragment>
-      <h1>hello Notfound</h1>
+    <Home/>
     </React.Fragment>
   )
 }

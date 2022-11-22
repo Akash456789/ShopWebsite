@@ -1,13 +1,11 @@
 import React from "react"
-import web from '../src/images/img1.jpg'
+import Footer from "./Footer"
+
 import Card from "./Card";
 import Sdata from "./Sdata"
 const Service = () => {
     return (
         <React.Fragment>
-
-
-            
             <p className="tab-center">Our Service for Customer</p>
 
             <div className="container-fluid mb-5">
@@ -24,7 +22,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-
+<Footer/>
         </React.Fragment>
     )
 }
