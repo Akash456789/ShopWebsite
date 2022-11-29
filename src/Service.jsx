@@ -6,7 +6,7 @@ import Sdata from "./Sdata"
 const Service = () => {
     return (
         <React.Fragment>
-            <p className="tab-center">Our Service for Customer</p>
+            <p className="tab-center me_txt">Our Service for Customer</p>
 
             <div className="container-fluid mb-5">
                 <div className="row">

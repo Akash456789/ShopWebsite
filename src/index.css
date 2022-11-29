@@ -182,8 +182,9 @@ header-img {
         text-align: center;
     }
     .pic {
-        width: 600px;
-        height: 600px;
+        width: 700px;
+        height: 500px;
+        text-align: center;
     }
 }
 
@@ -195,5 +196,13 @@ header-img {
     .pic {
         width: 380px;
         height: 500px;
+    }
+    .me_txt {
+        font-size: 30px;
+    }
+    .me_pic {
+        width: 350px;
+        margin: 0px;
+        padding: 0px;
     }
 }

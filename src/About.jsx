@@ -11,7 +11,7 @@ const About = () => {
     <React.Fragment> 
 
 
-<div className="row row-heightm p-2 m-0">
+<div className="row row-height p-3">
 <div className="col-sm-8 col-custom">
     <div id="about-text">
         <h3 className="frm4 ab_txt">
@@ -46,9 +46,9 @@ About Us</h3>
       </ul>
     </div>
   </div>
-  <div className="col-sm-4 col-custom pr0">
+  <div className="col-sm-4 col-custom">
     <div className="img-box">
-      <img src={ab1} alt="about" className="img-responsive"/>
+      <img src={ab1} alt="about" className="me_pic"/>
     </div>
   </div>
 </div>
