@@ -17,7 +17,7 @@ const Home=()=>{
       <NavLink className="navbar-brand" to="/service"><span className="btn2">Click</span></NavLink>
     </div>
     <div className="col-sm">
-      <img src={web} alt="mypic" width="550px"/>
+      <img src={web} alt="mypic" width="620px" className='pic'/>
     </div>   
   </div>
 </div><br/><br/>

@@ -11,7 +11,7 @@ const About = () => {
     <React.Fragment> 
 
 
-<div className="row row-heightm p-3">
+<div className="row row-heightm p-2 m-0">
 <div className="col-sm-8 col-custom">
     <div id="about-text">
         <h3 className="frm4 ab_txt">

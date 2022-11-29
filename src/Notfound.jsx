@@ -4,6 +4,7 @@ const Notfound=()=>{
   return(
     <React.Fragment>
     <Home/>
+    
     </React.Fragment>
   )
 }

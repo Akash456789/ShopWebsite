@@ -138,7 +138,7 @@ return(
   
   <div className="text-center p-3">
     © 2020 Copyright:
-    <a className="text-white" href="https://aks@gmail.com/">MDBootstrap.com</a>
+    <a className="text-white" href="#">aks@gmail.com</a>
   </div>
   
 </footer>
